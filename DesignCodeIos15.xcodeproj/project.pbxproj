@@ -14,6 +14,7 @@
 		7C96F7EF2D20EEE9000CAD54 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C96F7EE2D20EEE9000CAD54 /* ContentView.swift */; };
 		7C96F7F12D20EEEB000CAD54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C96F7F02D20EEEB000CAD54 /* Assets.xcassets */; };
 		7C96F7F42D20EEEB000CAD54 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C96F7F32D20EEEB000CAD54 /* Preview Assets.xcassets */; };
+		7C99E6A92DB46FB800850312 /* BlobView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C99E6A82DB46FB800850312 /* BlobView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		7C96F7EE2D20EEE9000CAD54 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7C96F7F02D20EEEB000CAD54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7C96F7F32D20EEEB000CAD54 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7C99E6A82DB46FB800850312 /* BlobView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlobView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				7C96F7EC2D20EEE9000CAD54 /* DesignCodeIos15App.swift */,
 				7C96F7EE2D20EEE9000CAD54 /* ContentView.swift */,
 				7C219DFB2D8F80D600704DF2 /* Styles.swift */,
+				7C99E6A82DB46FB800850312 /* BlobView.swift */,
 				7C219DFD2D8F97F300704DF2 /* AccountView.swift */,
 				7C5FF15F2D98DF31008823A2 /* HexagonView.swift */,
 				7C96F7F02D20EEEB000CAD54 /* Assets.xcassets */,
@@ -149,6 +152,7 @@
 				7C219DFE2D8F97F300704DF2 /* AccountView.swift in Sources */,
 				7C5FF1602D98DF31008823A2 /* HexagonView.swift in Sources */,
 				7C219DFC2D8F80D600704DF2 /* Styles.swift in Sources */,
+				7C99E6A92DB46FB800850312 /* BlobView.swift in Sources */,
 				7C96F7EF2D20EEE9000CAD54 /* ContentView.swift in Sources */,
 				7C96F7ED2D20EEE9000CAD54 /* DesignCodeIos15App.swift in Sources */,
 			);
