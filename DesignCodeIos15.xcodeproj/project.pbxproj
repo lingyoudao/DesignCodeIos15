@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C019E1D2E51681100A0756C /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C019E1C2E51681100A0756C /* Course.swift */; };
 		7C124EFF2DEBDF3100199DFB /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C124EFE2DEBDF3100199DFB /* HomeView.swift */; };
 		7C219DFC2D8F80D600704DF2 /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C219DFB2D8F80D600704DF2 /* Styles.swift */; };
 		7C219DFE2D8F97F300704DF2 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C219DFD2D8F97F300704DF2 /* AccountView.swift */; };
@@ -25,6 +26,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7C019E1C2E51681100A0756C /* Course.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
 		7C124EFE2DEBDF3100199DFB /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		7C219DFB2D8F80D600704DF2 /* Styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
 		7C219DFD2D8F97F300704DF2 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
@@ -88,6 +90,7 @@
 			children = (
 				7C7429022DD97918003DDD8B /* Tab.swift */,
 				7C294FFA2DF3C01000046DD5 /* PreferenceKeys.swift */,
+				7C019E1C2E51681100A0756C /* Course.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -218,6 +221,7 @@
 				7C294FF92DF3B07000046DD5 /* NavigationBar.swift in Sources */,
 				7C99E6A92DB46FB800850312 /* BlobView.swift in Sources */,
 				7C96F7EF2D20EEE9000CAD54 /* ContentView.swift in Sources */,
+				7C019E1D2E51681100A0756C /* Course.swift in Sources */,
 				7C96F7ED2D20EEE9000CAD54 /* DesignCodeIos15App.swift in Sources */,
 				7C91BC9D2DF3ADB40063BC3F /* FeaturedItem.swift in Sources */,
 				7C294FFB2DF3C01000046DD5 /* PreferenceKeys.swift in Sources */,

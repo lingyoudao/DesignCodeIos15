@@ -8,10 +8,12 @@
 import SwiftUI
 
 struct FeaturedItem: View {
+    var course: Course = courses[0]
+    
     var body: some View {
         VStack(alignment: .leading, spacing: 8.0) {
             Spacer()
-            Image("Logo 2")
+            Image(course.logo)
                 .resizable(resizingMode: .stretch)
                 .aspectRatio(contentMode: .fit)
                 .frame(width: 26.0, height: 26.0)
@@ -20,17 +22,17 @@ struct FeaturedItem: View {
                 .background(.ultraThinMaterial, in: RoundedRectangle(cornerRadius: 16, style: .continuous))
                 .strokeStyle(cornerRadius: 16)
 //                    .modifier(StrokeStyle())
-            Text("SwiftUI for iOS 15")
+            Text(course.title)
                 .font(.largeTitle)
                 .fontWeight(.bold)
                 .foregroundStyle(.linearGradient(colors: [.primary, .primary.opacity(0.5)], startPoint: .topLeading, endPoint: .bottomTrailing))
             //.primary颜色，在light模式下黑，dark mode下白
             
-            Text(/*@START_MENU_TOKEN@*/"20 sections - 3 hours"/*@END_MENU_TOKEN@*/)
+            Text(course.subtitle.uppercased())
                 .font(.footnote)
                 .fontWeight(.semibold)
                 .foregroundStyle(.secondary)
-            Text("Builld an iOS app for iOS15 with custom layouts, animations and ...")
+            Text(course.text)
                 .font(.footnote)
                 .multilineTextAlignment(.leading)
                 .lineLimit(2)
@@ -48,9 +50,9 @@ struct FeaturedItem: View {
         //.modifier(StrokeStyle())
         .strokeStyle()
         .padding(.horizontal, 20)
-        .background(Image("Blob 1").offset(x: 250, y:   -100))
+        
         .overlay(
-            Image("Illustration 5")
+            Image(course.image)
                 .resizable()
                 .aspectRatio(contentMode: .fit)
                 .frame(height:230)
