@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		7C019E1D2E51681100A0756C /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C019E1C2E51681100A0756C /* Course.swift */; };
 		7C124EFF2DEBDF3100199DFB /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C124EFE2DEBDF3100199DFB /* HomeView.swift */; };
+		7C1C99342E63D923001E00BF /* MatchedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1C99332E63D923001E00BF /* MatchedView.swift */; };
 		7C219DFC2D8F80D600704DF2 /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C219DFB2D8F80D600704DF2 /* Styles.swift */; };
 		7C219DFE2D8F97F300704DF2 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C219DFD2D8F97F300704DF2 /* AccountView.swift */; };
 		7C294FF92DF3B07000046DD5 /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C294FF82DF3B07000046DD5 /* NavigationBar.swift */; };
@@ -28,6 +29,7 @@
 /* Begin PBXFileReference section */
 		7C019E1C2E51681100A0756C /* Course.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
 		7C124EFE2DEBDF3100199DFB /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		7C1C99332E63D923001E00BF /* MatchedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchedView.swift; sourceTree = "<group>"; };
 		7C219DFB2D8F80D600704DF2 /* Styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
 		7C219DFD2D8F97F300704DF2 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
 		7C294FF82DF3B07000046DD5 /* NavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
@@ -71,6 +73,7 @@
 			children = (
 				7C219DFD2D8F97F300704DF2 /* AccountView.swift */,
 				7C124EFE2DEBDF3100199DFB /* HomeView.swift */,
+				7C1C99332E63D923001E00BF /* MatchedView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -217,6 +220,7 @@
 				7C219DFE2D8F97F300704DF2 /* AccountView.swift in Sources */,
 				7C5FF1602D98DF31008823A2 /* HexagonView.swift in Sources */,
 				7C219DFC2D8F80D600704DF2 /* Styles.swift in Sources */,
+				7C1C99342E63D923001E00BF /* MatchedView.swift in Sources */,
 				7C7429032DD97918003DDD8B /* Tab.swift in Sources */,
 				7C294FF92DF3B07000046DD5 /* NavigationBar.swift in Sources */,
 				7C99E6A92DB46FB800850312 /* BlobView.swift in Sources */,
